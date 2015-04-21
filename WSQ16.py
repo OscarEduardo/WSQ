@@ -1,6 +1,6 @@
 # WSQ
 #Oscar Eduardo Sánchez
-def banana(file):
+def carro(file):
 	c=0
 	sumprice= 0
 	sumcity= 0
@@ -24,7 +24,7 @@ def banana(file):
 	return(average_price, average_city, average_high)
 	
 txt = open("93cars.dat.txt")
-(a,b,c) = banana(txt)
+(a,b,c) = carro(txt)
 a= str(a)
 b= str(b)
 c= str(c)
